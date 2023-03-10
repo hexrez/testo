@@ -5,3 +5,4 @@ const matnFunc = function () {
   matn.textContent = Math.trunc(Math.random() * 1000) + 1;
 };
 //// lol ss
+sss;
