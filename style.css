@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #444;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  width: 900px;
+  background-color: rgb(236, 134, 0);
+  margin: auto;
+}
+h4 {
+  text-align: center;
+  margin: 3px;
+}
+/* NAVBAR  */
+.navi {
+  border-top: #2676c0 solid 5px;
+  background-color: gainsboro;
+  margin-bottom: 30px;
+}
+.name {
+  color: black;
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: bold;
+  float: left;
+}
+.navbar {
+  float: right;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+/* Article  */
+article {
+  width: 600px;
+  background-color: azure;
+  /* display: inline; */
+  float: left;
+}
+.layout-test {
+  background-color: gainsboro;
+  border-top: #2676c0 solid 5px;
+  border-bottom: #2676c0 solid 5px;
+
+  padding: 10px;
+  width: 200px;
+  height: 250px;
+  float: right;
+}
+.lol {
+  position: absolute;
+  cursor: pointer;
+  background-color: purple;
+  border: none;
+  width: 60;
+  height: 60;
+  font-size: 30px;
+  right: 50px;
+  bottom: 50px;
+}
+footer {
+  clear: both;
+  margin: auto;
+  position: relative;
+  bottom: 0px;
+  /* top: 200; */
+  /* bottom: 130; */
+  /* left: 330; */
+  text-align: center;
+  background-color: yellow;
+}
+.author-pic {
+  background-color: white;
+  width: 80px;
+  border-radius: 110px;
+  border: #444 solid 2px;
+  margin: 10px;
+  float: left;
+}
+
+.post-date {
+  margin-top: 20px;
+}
+
+.post-head {
+  color: #2676c0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 32px;
+  margin: 0px 0px 50px 0px;
+}
+
+.post-head2 {
+  margin-left: 20px;
+}
+
+.post-text {
+  margin: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: larger;
+}
+
+/* links */
+a:link {
+  text-decoration: none;
+  color: rgb(114, 91, 199);
+}
+a:visited {
+  color: rgb(114, 91, 199);
+}
+a:hover {
+  color: rgb(114, 91, 199);
+  text-decoration: underline dotted cornflowerblue;
+}
+a:active {
+  background-color: #2d778d;
+  cursor: wait;
+}
+/* List style */
+/* ol,
+ul {
+  list-style: none;
+}
+li:last-child {
+  margin-bottom: 10px;
+  color: #2d778d;
+} */
